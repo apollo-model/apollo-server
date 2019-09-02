@@ -90,6 +90,11 @@ jobs:
     steps:
       - common_test_steps
 
+  Dry Publish:
+    executor: node
+    steps:
+      - run: echo "ok"
+
 # XXX We used to use this filter to only run a "Docs" job on docs branches.
 #     Now we use it to disable all jobs. It's unclear if there's a simpler way
 #     to do this!
@@ -111,3 +116,9 @@ workflows:
           <<: *ignore_doc_branches
       - Node.js 12:
           <<: *ignore_doc_branches
+      - Dry Publish:
+          requires:
+            - Node.js 6
+            - Node.js 8
+            - Node.js 10
+            - Node.js 12
