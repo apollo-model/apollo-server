@@ -1,7 +1,7 @@
 import gql from 'graphql-tag';
 import { createTestClient } from 'apollo-server-testing';
 import { ApolloServerBase as ApolloServer } from 'apollo-server-core';
-import { buildFederatedSchema } from '@apollo/federation';
+import { buildFederatedSchema } from '@apollo-model/federation';
 
 import { LocalGraphQLDataSource } from '../../datasources/LocalGraphQLDataSource';
 import { ApolloGateway } from '../../';

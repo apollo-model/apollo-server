@@ -1,5 +1,5 @@
 import { CachedFetcher } from './cachedFetcher';
-import { ServiceDefinition } from '@apollo/federation';
+import { ServiceDefinition } from '@apollo-model/federation';
 import { parse } from 'graphql';
 import { UpdateServiceDefinitions } from '.';
 

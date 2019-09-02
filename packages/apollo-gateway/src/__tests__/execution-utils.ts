@@ -9,7 +9,7 @@ import {
   composeAndValidate,
   buildFederatedSchema,
   ServiceDefinition,
-} from '@apollo/federation';
+} from '@apollo-model/federation';
 
 import {
   buildQueryPlan,

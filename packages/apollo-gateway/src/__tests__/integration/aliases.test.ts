@@ -10,7 +10,7 @@ import * as reviews from '../__fixtures__/schemas/reviews';
 // FIXME: remove this when GraphQLExtensions is removed
 import { createTestClient } from 'apollo-server-testing';
 import { ApolloServerBase as ApolloServer } from 'apollo-server-core';
-import { buildFederatedSchema } from '@apollo/federation';
+import { buildFederatedSchema } from '@apollo-model/federation';
 import { LocalGraphQLDataSource } from '../../datasources/LocalGraphQLDataSource';
 import { ApolloGateway } from '../../';
 
