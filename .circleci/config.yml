@@ -70,22 +70,22 @@ jobs:
   # at https://hub.docker.com/r/circleci/node/.
 
   # NODE: Note certain tests are currently being skipped for Node.js 6.
-  Node.js 6:
+  NodeJS 6:
     executor: { name: node, tag: '6' }
     steps:
       - common_test_steps
 
-  Node.js 8:
+  NodeJS 8:
     executor: { name: node, tag: '8' }
     steps:
       - common_test_steps
 
-  Node.js 10:
+  NodeJS 10:
     executor: { name: node, tag: '10' }
     steps:
       - common_test_steps
 
-  Node.js 12:
+  NodeJS 12:
     executor: { name: node, tag: '12' }
     steps:
       - common_test_steps
@@ -108,17 +108,17 @@ workflows:
   version: 2
   Build and Test:
     jobs:
-      - Node.js 6:
+      - NodeJS 6:
           <<: *ignore_doc_branches
-      - Node.js 8:
+      - NodeJS 8:
           <<: *ignore_doc_branches
-      - Node.js 10:
+      - NodeJS 10:
           <<: *ignore_doc_branches
-      - Node.js 12:
+      - NodeJS 12:
           <<: *ignore_doc_branches
       - Dry Publish:
           requires:
-            - Node.js 6
-            - Node.js 8
-            - Node.js 10
-            - Node.js 12
+            - NodeJS 6
+            - NodeJS 8
+            - NodeJS 10
+            - NodeJS 12
