@@ -1,5 +1,81 @@
 version: 2.1
 
+#
+#
+#  RRRRRRRRRRRRRRRRR   EEEEEEEEEEEEEEEEEEEEEEMMMMMMMM               MMMMMMMM     OOOOOOOOO     VVVVVVVV           VVVVVVVVEEEEEEEEEEEEEEEEEEEEEE
+#  R::::::::::::::::R  E::::::::::::::::::::EM:::::::M             M:::::::M   OO:::::::::OO   V::::::V           V::::::VE::::::::::::::::::::E
+#  R::::::RRRRRR:::::R E::::::::::::::::::::EM::::::::M           M::::::::M OO:::::::::::::OO V::::::V           V::::::VE::::::::::::::::::::E
+#  RR:::::R     R:::::REE::::::EEEEEEEEE::::EM:::::::::M         M:::::::::MO:::::::OOO:::::::OV::::::V           V::::::VEE::::::EEEEEEEEE::::E
+#    R::::R     R:::::R  E:::::E       EEEEEEM::::::::::M       M::::::::::MO::::::O   O::::::O V:::::V           V:::::V   E:::::E       EEEEEE
+#    R::::R     R:::::R  E:::::E             M:::::::::::M     M:::::::::::MO:::::O     O:::::O  V:::::V         V:::::V    E:::::E
+#    R::::RRRRRR:::::R   E::::::EEEEEEEEEE   M:::::::M::::M   M::::M:::::::MO:::::O     O:::::O   V:::::V       V:::::V     E::::::EEEEEEEEEE
+#    R:::::::::::::RR    E:::::::::::::::E   M::::::M M::::M M::::M M::::::MO:::::O     O:::::O    V:::::V     V:::::V      E:::::::::::::::E
+#    R::::RRRRRR:::::R   E:::::::::::::::E   M::::::M  M::::M::::M  M::::::MO:::::O     O:::::O     V:::::V   V:::::V       E:::::::::::::::E
+#    R::::R     R:::::R  E::::::EEEEEEEEEE   M::::::M   M:::::::M   M::::::MO:::::O     O:::::O      V:::::V V:::::V        E::::::EEEEEEEEEE
+#    R::::R     R:::::R  E:::::E             M::::::M    M:::::M    M::::::MO:::::O     O:::::O       V:::::V:::::V         E:::::E
+#    R::::R     R:::::R  E:::::E       EEEEEEM::::::M     MMMMM     M::::::MO::::::O   O::::::O        V:::::::::V          E:::::E       EEEEEE
+#  RR:::::R     R:::::REE::::::EEEEEEEE:::::EM::::::M               M::::::MO:::::::OOO:::::::O         V:::::::V         EE::::::EEEEEEEE:::::E
+#  R::::::R     R:::::RE::::::::::::::::::::EM::::::M               M::::::M OO:::::::::::::OO           V:::::V          E::::::::::::::::::::E
+#  R::::::R     R:::::RE::::::::::::::::::::EM::::::M               M::::::M   OO:::::::::OO              V:::V           E::::::::::::::::::::E
+#  RRRRRRRR     RRRRRRREEEEEEEEEEEEEEEEEEEEEEMMMMMMMM               MMMMMMMM     OOOOOOOOO                 VVV            EEEEEEEEEEEEEEEEEEEEEE
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#  TTTTTTTTTTTTTTTTTTTTTTTHHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEE
+#  T:::::::::::::::::::::TH:::::::H     H:::::::HE::::::::::::::::::::E
+#  T:::::::::::::::::::::TH:::::::H     H:::::::HE::::::::::::::::::::E
+#  T:::::TT:::::::TT:::::THH::::::H     H::::::HHEE::::::EEEEEEEEE::::E
+#  TTTTTT  T:::::T  TTTTTT  H:::::H     H:::::H    E:::::E       EEEEEE
+#          T:::::T          H:::::H     H:::::H    E:::::E
+#          T:::::T          H::::::HHHHH::::::H    E::::::EEEEEEEEEE
+#          T:::::T          H:::::::::::::::::H    E:::::::::::::::E
+#          T:::::T          H:::::::::::::::::H    E:::::::::::::::E
+#          T:::::T          H::::::HHHHH::::::H    E::::::EEEEEEEEEE
+#          T:::::T          H:::::H     H:::::H    E:::::E
+#          T:::::T          H:::::H     H:::::H    E:::::E       EEEEEE
+#        TT:::::::TT      HH::::::H     H::::::HHEE::::::EEEEEEEE:::::E
+#        T:::::::::T      H:::::::H     H:::::::HE::::::::::::::::::::E
+#        T:::::::::T      H:::::::H     H:::::::HE::::::::::::::::::::E
+#        TTTTTTTTTTT      HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEE
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#  HHHHHHHHH     HHHHHHHHH               AAA                  CCCCCCCCCCCCCKKKKKKKKK    KKKKKKK
+#  H:::::::H     H:::::::H              A:::A              CCC::::::::::::CK:::::::K    K:::::K
+#  H:::::::H     H:::::::H             A:::::A           CC:::::::::::::::CK:::::::K    K:::::K
+#  HH::::::H     H::::::HH            A:::::::A         C:::::CCCCCCCC::::CK:::::::K   K::::::K
+#    H:::::H     H:::::H             A:::::::::A       C:::::C       CCCCCCKK::::::K  K:::::KKK
+#    H:::::H     H:::::H            A:::::A:::::A     C:::::C                K:::::K K:::::K
+#    H::::::HHHHH::::::H           A:::::A A:::::A    C:::::C                K::::::K:::::K
+#    H:::::::::::::::::H          A:::::A   A:::::A   C:::::C                K:::::::::::K
+#    H:::::::::::::::::H         A:::::A     A:::::A  C:::::C                K:::::::::::K
+#    H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A C:::::C                K::::::K:::::K
+#    H:::::H     H:::::H       A:::::::::::::::::::::AC:::::C                K:::::K K:::::K
+#    H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::AC:::::C       CCCCCCKK::::::K  K:::::KKK
+#  HH::::::H     H::::::HH   A:::::A             A:::::AC:::::CCCCCCCC::::CK:::::::K   K::::::K
+#  H:::::::H     H:::::::H  A:::::A               A:::::ACC:::::::::::::::CK:::::::K    K:::::K
+#  H:::::::H     H:::::::H A:::::A                 A:::::A CCC::::::::::::CK:::::::K    K:::::K
+#  HHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAA   CCCCCCCCCCCCCKKKKKKKKK    KKKKKKK
+#
+#
+#
+#
+#
+#
+#
+
 # Reusable Snippets!
 #
 # These are re-used by the various tests below, to avoid repetition.
@@ -42,15 +118,16 @@ commands:
             # This should cache the npm cache instead of node_modules, which is needed because
             # npm ci actually removes node_modules before installing to guarantee a clean slate.
             - ~/.npm
-      - run:
-          command: npm run test:ci
-          environment:
-            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
-      - run: npm run coverage:upload
-      - store_test_results:
-          path: reports/junit
-      - store_artifacts:
-          path: reports/junit
+      # TODO TK HACK REMOVE ME, DISABLE TESTS COMPLETELY FOR ITERATION SPEED.
+      # - run:
+      #     command: npm run test:ci
+      #     environment:
+      #       JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
+      # - run: npm run coverage:upload
+      # - store_test_results:
+      #     path: reports/junit
+      # - store_artifacts:
+      #     path: reports/junit
 
 executors:
   node:
