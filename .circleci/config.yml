@@ -166,10 +166,21 @@ jobs:
     executor: { name: node, tag: '12' }
     steps:
       - common_test_steps
+      # We will save the results of this one particular invocation to use in
+      # the publish step. Not only does this make the publishing step take less
+      # time, this also ensures that a passing version gets deployed even if,
+      # theoretically, rebuilding the same commit on the same version of
+      # Node.js should yield the same results!
+      - persist_to_workspace:
+          root: .
+          paths:
+            - ./**
 
   Dry Publish:
     executor: node
     steps:
+      - attach_workspace:
+          at: .
       - run: echo "ok"
 
 # XXX We used to use this filter to only run a "Docs" job on docs branches.
