@@ -1,6 +1,6 @@
 {
   "name": "@apollo-model/gateway",
-  "version": "0.10.4-alpha.3",
+  "version": "0.10.4-alpha.4",
   "description": "Apollo Gateway",
   "author": "opensource@apollographql.com",
   "main": "dist/index.js",
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@apollo/federation": "file:../apollo-federation",
+    "@apollo-model/federation": "file:../apollo-federation",
     "apollo-engine-reporting-protobuf": "file:../apollo-engine-reporting-protobuf",
     "apollo-env": "^0.5.1",
     "apollo-graphql": "^0.3.3",
