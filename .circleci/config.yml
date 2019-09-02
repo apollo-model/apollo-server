@@ -57,7 +57,7 @@ executors:
     parameters:
       tag:
         type: string
-        default: 10
+        default: '10'
     docker:
       - image: circleci/node:<< parameters.tag >>
 
