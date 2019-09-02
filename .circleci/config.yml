@@ -181,7 +181,7 @@ jobs:
     steps:
       - attach_workspace:
           at: .
-      - run: echo "ok"
+      - run: ls -laR
 
 # XXX We used to use this filter to only run a "Docs" job on docs branches.
 #     Now we use it to disable all jobs. It's unclear if there's a simpler way
