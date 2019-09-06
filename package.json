@@ -25,8 +25,8 @@
   },
   "dependencies": {
     "@apollographql/apollo-tools": "0.4.0",
-    "@apollo/federation": "file:packages/apollo-federation",
-    "@apollo/gateway": "file:packages/apollo-gateway",
+    "@apollo-model/federation": "file:packages/apollo-federation",
+    "@apollo-model/gateway": "file:packages/apollo-gateway",
     "apollo-cache-control": "file:packages/apollo-cache-control",
     "apollo-datasource": "file:packages/apollo-datasource",
     "apollo-datasource-rest": "file:packages/apollo-datasource-rest",
