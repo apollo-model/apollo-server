@@ -5,7 +5,7 @@ import {
   GraphQLSchemaValidationError,
 } from 'apollo-graphql';
 import gql from 'graphql-tag';
-import { composeServices, buildFederatedSchema } from '@apollo/federation';
+import { composeServices, buildFederatedSchema } from '@apollo-model/federation';
 
 import { buildQueryPlan, buildOperationContext } from '../buildQueryPlan';
 
