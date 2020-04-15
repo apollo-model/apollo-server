@@ -1,5 +1,6 @@
 import {
   isObjectType,
+  isInterfaceType,
   GraphQLError,
   isListType,
   isNonNullType,
@@ -46,7 +47,7 @@ export const providesNotOnEntity: PostCompositionValidator = ({ schema }) => {
 
       // field has a @provides directive on it
       if (field.federation && field.federation.provides) {
-        if (!isObjectType(baseType)) {
+        if (!isObjectType(baseType) && !isInterfaceType(baseType)) {
           errors.push(
             errorWithCode(
               'PROVIDES_NOT_ON_ENTITY',
