@@ -1,5 +1,5 @@
 {
-  "name": "@apollo/federation",
+  "name": "@apollo-model/federation",
   "version": "0.14.1",
   "description": "Apollo Federation Utilities",
   "main": "dist/index.js",

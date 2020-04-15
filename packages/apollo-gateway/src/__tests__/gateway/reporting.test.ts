@@ -3,7 +3,7 @@ import { gunzipSync } from 'zlib';
 import nock from 'nock';
 import { GraphQLSchemaModule } from 'apollo-graphql';
 import gql from 'graphql-tag';
-import { buildFederatedSchema } from '@apollo/federation';
+import { buildFederatedSchema } from '@apollo-model/federation';
 import { ApolloServer } from 'apollo-server';
 import { FullTracesReport } from 'apollo-engine-reporting-protobuf';
 import { execute, toPromise } from 'apollo-link';

@@ -1,5 +1,5 @@
 {
-  "name": "@apollo/gateway",
+  "name": "@apollo-model/gateway",
   "version": "0.14.1",
   "description": "Apollo Gateway",
   "author": "opensource@apollographql.com",
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@apollo/federation": "file:../apollo-federation",
+    "@apollo-model/federation": "file:../apollo-federation",
     "@types/node-fetch": "2.5.4",
     "apollo-engine-reporting-protobuf": "file:../apollo-engine-reporting-protobuf",
     "apollo-env": "^0.6.1",
